@@ -58,6 +58,13 @@ body{
   transform: translate3d(0%, -10%, 0) rotate(0deg);
 }
 
+.name-highlight {
+  background: linear-gradient(90deg, #7b61ff, #00d2ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 700;
+}
+
 /* Floating orbs */
 .orb{
   position:absolute;
